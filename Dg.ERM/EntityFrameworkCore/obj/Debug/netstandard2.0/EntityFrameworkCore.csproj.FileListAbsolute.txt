@@ -1,0 +1,6 @@
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\bin\Debug\netstandard2.0\EntityFrameworkCore.deps.json
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\bin\Debug\netstandard2.0\EntityFrameworkCore.dll
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\obj\Debug\netstandard2.0\EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\obj\Debug\netstandard2.0\EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\obj\Debug\netstandard2.0\EntityFrameworkCore.AssemblyInfo.cs
+E:\DgHub\Dg.ERM\Dg.ERM\EntityFrameworkCore\obj\Debug\netstandard2.0\EntityFrameworkCore.csprojAssemblyReference.cache
