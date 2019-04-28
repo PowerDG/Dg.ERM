@@ -83,23 +83,9 @@ namespace DG.ERM.OrganizationStructure.Dtos
 
 
 		/// <summary>
-		/// Parent
-		/// </summary>
-		public DgOrganizationUnit Parent { get; set; }
-
-
-
-		/// <summary>
 		/// ParentId
 		/// </summary>
 		public long? ParentId { get; set; }
-
-
-
-		/// <summary>
-		/// Children
-		/// </summary>
-		public DgOrganizationUnit[] Children { get; set; }
 
 
 

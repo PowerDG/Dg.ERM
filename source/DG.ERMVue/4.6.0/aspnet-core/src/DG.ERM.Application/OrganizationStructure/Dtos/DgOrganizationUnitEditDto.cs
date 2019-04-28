@@ -15,11 +15,7 @@ namespace  DG.ERM.OrganizationStructure.Dtos
         public int? Id { get; set; }         
 
 
-        
-		/// <summary>
-		/// Id
-		/// </summary>
- 
+         
 
 
 		/// <summary>
@@ -67,10 +63,7 @@ namespace  DG.ERM.OrganizationStructure.Dtos
 		/// <summary>
 		/// RecordCreateTime
 		/// </summary>
-		//public string RecordCreateTime { get; set; }
-
-
-         
+		public string RecordCreateTime { get; set; }
 
 
 
@@ -79,7 +72,6 @@ namespace  DG.ERM.OrganizationStructure.Dtos
 		/// </summary>
 		public long? ParentId { get; set; }
 
-         
 
 
 		/// <summary>

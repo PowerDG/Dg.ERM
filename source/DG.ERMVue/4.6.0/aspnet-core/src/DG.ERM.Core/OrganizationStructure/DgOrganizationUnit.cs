@@ -24,9 +24,9 @@ namespace DG.ERM.OrganizationStructure
         public int RecordStatus { get; set; }
 
 
-        public DgOrganizationUnit Parent { get; set; }
+        //public DgOrganizationUnit Parent { get; set; }
         public long? ParentId { get; set; }
-        public DgOrganizationUnit[] Children { get; set; }
+        //public DgOrganizationUnit[] Children { get; set; }
         public string description { get; set; }
         public bool isActive { get; set; }
 

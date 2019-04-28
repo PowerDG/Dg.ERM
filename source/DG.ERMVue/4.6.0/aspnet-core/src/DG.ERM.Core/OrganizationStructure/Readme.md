@@ -79,9 +79,7 @@ public DbSet<DgOrganizationUnit>  DgOrganizationUnits { get; set; }
 <text name="RecordCreateTime"  value="RecordCreateTime"></text>
 <text name="RecordUpdateTime"  value="RecordUpdateTime"></text>
 <text name="RecordStatus"  value="RecordStatus"></text>
-<text name="Parent"  value="Parent"></text>
 <text name="ParentId"  value="ParentId"></text>
-<text name="Children"  value="Children"></text>
 <text name="description"  value="description"></text>
 <text name="isActive"  value="isActive"></text>
 

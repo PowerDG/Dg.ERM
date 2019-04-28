@@ -47,6 +47,11 @@ namespace DG.ERM.OrganizationStructure
             _entityRepository = entityRepository; 
              _entityManager=entityManager;
         }
+        public IList<DgOrganizationUnitEditDto> GetAllMissions()
+        {
+            var task = _entityRepository.GetAll().OrderByDescending(t => t.Id);
+            return AutoMapper.Mapper.Map<List<DgOrganizationUnitEditDto>>(task);
+        }
 
 
         /// <summary>
