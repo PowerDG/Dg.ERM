@@ -25,4 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DG.ERM.Core\DG.ERM.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
 </Project>
