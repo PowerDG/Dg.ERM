@@ -36,7 +36,28 @@ namespace Dg.ERM.OrganizationUnits
             _entityManager = entityManager;
         }
 
+        #region MyRegion
+        public void Test2()
+        {
 
+            var oU = new OrganizationUnit(null, "RootNode", null);
+        }
+        public void Test()
+        {
+            var oU = new OrganizationUnit();
+            OrganizationUnit.CreateCode(5, 1);
+            OrganizationUnit.AppendCode("10086", "20121");
+            //去前缀,相对
+            OrganizationUnit.GetRelativeCode("00019.00055.00001", "00019");
+            //计算，获取下一个顺序节点
+            OrganizationUnit.CalculateNextCode("00019.00055.00001");
+            //获取最末叶子节点
+            OrganizationUnit.GetLastUnitCode("00019.00055.00001");
+            //获取五叶前缀母节点
+            OrganizationUnit.GetParentCode("00019.00055.00001");
+        }
+
+        #endregion
 
         #region CRUD
         [UnitOfWork]
