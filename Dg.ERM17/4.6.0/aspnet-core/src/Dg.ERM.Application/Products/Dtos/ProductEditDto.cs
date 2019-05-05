@@ -46,6 +46,7 @@ namespace  DG.ERM.Products.Dtos
 
 
 
+        //public virtual string ExtensionData { get; set; }
 
     }
 }
