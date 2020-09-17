@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+### 一张图，帮你总结React入门必须的知识点
+
+
+
+
+
+https://juejin.im/post/6844903798712827912
+
+
+
+![img](readme.assets/1698c45098172f43)
+
+
+
+
+
+
+
+### create-react-app
+
+https://blog.csdn.net/weixin_39430411/article/details/103771361
+
+
+
+ 推荐使用`Create React App`。它在内部使用了webpack和Babel，而你无需了解他们的任何细节。 使用如下命令：
+
+```bash
+npx create-react-app my-app
+```
+
+​    注意这里是`npx` 而不是`npm` ，它是指npm附带的package运行工具。
+​     开发环境使用`npm start`，生产环境使用`npm run build`，它会生成一个优化版本。
+​     生产环境需要正确配置，比如不显示源码等。
+
+
+
+### Form表单
+
+
+
+可以尝试使用 ***Formik*** 来作为表单的成熟方案
+
+
+
+
+
+
+
+### Topic
+
+https://blog.csdn.net/yangxiaobo118/article/details/79823561
+
+
+
+基本内容：
+
+1、React
+
+2、npm
+
+3、JavaScript 打包工具
+
+4、ES6
+
+5、路由
+
+6、Flux
+
+
+
+进阶话题：
+
+1、内联样式
+
+2、服务端渲染
+
+3、Immutable.js
+
+4、Relay, Falcor等
+
+
+
+
+
+
+
+---
+
+
