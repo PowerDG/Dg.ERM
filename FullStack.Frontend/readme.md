@@ -4,6 +4,12 @@
 
 ### create-react-app
 
+
+
+
+
+- Use components and debug exceptions
+
 ```
 npm uninstall --global create-react-app
 npx create-react-app sample
@@ -18,9 +24,35 @@ yarn add antd
 
 你也可以使用 create-react-app 提供的 [yarn run eject](https://create-react-app.dev/docs/available-scripts/#npm-run-eject) 命令将所有内建的配置暴露出来。不过这种配置方式需要你自行探索，不在本文讨论范围内。
 
-
+Set the mirror address
 
  npm install -g cnpm --registry= https://registry.npm.taobao.org 
+
+
+
+### vD
+
+
+
+
+
+Browserslist: caniuse-lite is outdated. Please run the following command: `npx browserslist --update-db`
+
+ 
+
+npx browserslist——update-db
+
+### tsx
+
+
+
+
+
+It looks like you're trying to use TypeScript but do not have typescript installed.
+Please install typescript by running yarn add typescript.
+If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files).
+
+
 
 
 
@@ -32,6 +64,8 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 npm i  
  安装/还原  node 等 package.json 的 指定插件
+
+- The default IP and port number to boot
 
  
 
