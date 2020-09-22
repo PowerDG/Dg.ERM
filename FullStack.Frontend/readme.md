@@ -55,7 +55,7 @@ If you are not trying to use TypeScript, please remove the tsconfig.json file fr
 
 
 
-
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org 
