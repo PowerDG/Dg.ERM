@@ -26,7 +26,7 @@ https://juejin.im/post/6844903798712827912
 
 
 
-
+ Formik 3
 
 ### create-react-app
 
@@ -83,6 +83,9 @@ React Tutorial: An Overview and Walkthrough
 
 
 可以尝试使用 ***Formik*** 来作为表单的成熟方案
+
+
+##### Yup添加验证
 
 
 
@@ -183,3 +186,10 @@ nd: `npx browserslist --update-db`
 
 caniuse-lite is outdated. Please run the following command: `npx browserslist --update-db`
 
+
+
+###  yarn add formik
+https://formik.org/docs/overview
+NPM
+
+ npm install formik --save
